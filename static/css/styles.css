@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('/images/background-pattern.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header {
+    background-color: cornsilk;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color:black; /* Highlighted color */
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px; /* Larger font size */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills p {
+    margin: 0; /* Reset margin to eliminate space between skills */
+    display: inline-block; /* Display skills horizontally */
+    padding: 8px 12px; /* Add padding to each skill for spacing */
+    margin-right: 10px; /* Margin between skills */
+    background-color:chartreuse; /* Highlighted background color */
+    color: #333;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Responsive Styles */
