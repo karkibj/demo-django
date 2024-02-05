@@ -5,14 +5,28 @@ def response(request):
     return HttpResponse("Hey welcome to the page")
 
 def gallery(request):
-    datafile={
-        'jerseynumber':[10,11,7]
+    # datafile={
+    #     'jerseynumber':[10,11,7]
 
-    }
+    # }
 
-    return render(request,"index.html",datafile)
+    return render(request,"index.html")
 def courses(request):
     return HttpResponse("AVailable  courses")
+
+def contact(request):
+    try:
+        if request.method=='GET':
+            value=0
+            n1=int(request.GET.get('num1'))
+            n2=int(request.GET.get('num2'))
+            value=(n1+n2)
+            
+    except:
+       pass
+
+
+    return render(request,"contact.html",{'output':value})
 
 def courseDetails(request,courseid):
     return HttpResponse(courseid)

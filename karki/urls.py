@@ -22,6 +22,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', views.Homepage),
     path('gallery/',views.gallery),
+    path('contact-us/',views.contact),
     path('courses/',views.courses),
     path('courses/<courseid>/',views.courseDetails),#calling parameter courseid from function courseDetails to the path courses 
 ]

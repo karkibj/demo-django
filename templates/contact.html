@@ -1,0 +1,37 @@
+{%extends 'body.html' %}
+
+ {% block content %}
+
+<br>
+<br>
+<br>
+<br>
+<form>
+<h1>
+LEARNING HTTP METHOD IN DJANGO
+</h1>
+<div class="formcontainer">
+    <form method="GET">
+        <label for="num1">NUM1</label>
+        <input type="text" name="num1">
+        <br>
+        <br>
+
+        <label for="num2">NUM2</label>
+        <input type="text" name="num2">
+        <br>
+        <button type="submit">Calculate</button>
+
+        <input type="text " value="{{output}}"/>
+
+    
+
+
+
+
+    </form>
+
+</div>
+    
+
+ {% endblock %}

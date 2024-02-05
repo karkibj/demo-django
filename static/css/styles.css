@@ -26,8 +26,10 @@ body {
 }
 
 .navbar h1 {
-    margin: 0;
+    text-align: center;
+    margin:auto;
     color: #fff;
+    
 }
 
 .navbar-links a {
@@ -49,9 +51,11 @@ body {
 }
 
 .hero img {
-    border-radius: 50%;
+    border-radius: 10%;
     max-width: 300px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    
 }
 
 /* Skills Styling */
@@ -113,7 +117,7 @@ body {
 .footer-container {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
+    background-color: none;
 }
 
 .footer-container p {
@@ -148,4 +152,9 @@ body {
     .navbar h1 {
         font-size: 1.5rem;
     }
+}
+
+.formcontainer{
+    height: 100vh;
+    width: 100%;
 }
